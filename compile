@@ -1,0 +1,1 @@
+mpifort -o RK barrier_energies_module.f90 ozokin.f90 -liomp5 -lmkl_intel_thread -lmkl_rt -lmkl_core -lmkl_intel_lp64 -lmkl_blacs_intelmpi_lp64 -lmkl_scalapack_lp64
